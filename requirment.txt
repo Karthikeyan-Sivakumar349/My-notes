@@ -4,3 +4,10 @@ uvicorn==0.52.0
 SQLAlchemy==2.0.51
 pydantic==2.13.4
 requests
+
+Library	Purpose
+fastapi	       |    Creates the backend API
+uvicorn	Runs   |   the FastAPI server
+SQLAlchemy	   |    Connects Python code to your database
+pydantic	     |    Validates API request and response data
+requests	     |    Allows your Tkinter frontend to communicate with the backend
